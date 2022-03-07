@@ -87,7 +87,6 @@ const App = () => {
                       <IconButton
                         aria-label="property"
                         onClick={() => {
-                          console.log("CLICKED");
                           setSelectedProperty(i);
                         }}
                       >

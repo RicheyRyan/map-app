@@ -32,8 +32,6 @@ const PropertyDetails = ({ property, handleClose }) => {
   const { lat, lon, satelliteImage, address, beds, baths, sqm, propertyType } =
     property;
 
-  console.log("DETAILS");
-
   return (
     <ClickAwayListener mouseEvent="onMouseDown" onClickAway={handleClose}>
       <Card className={classes.detailCard}>
